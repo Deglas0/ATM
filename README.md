@@ -16,9 +16,9 @@ Para receber um valor de outra conta, selecione a opção correspondente no menu
 
 Para inicializar os dados do cliente, siga as instruções na tela ao selecionar a opção correspondente no menu.
 
-## Menu de opções
+## Menu de tarefas a fazer
 
-O menu de opções apresenta as seguintes opções:
+O menu de opções tarefas as seguintes topicos:
 
 1. Checar saldo
 2. Enviar valor

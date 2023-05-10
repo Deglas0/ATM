@@ -23,5 +23,5 @@ O menu de opções apresenta as seguintes opções:
 1. Checar saldo
 2. Enviar valor
 3. Receber valor
-4. Inicializar dados do cliente
+4. ~~Inicializar dados do cliente~~
 5. Sair

@@ -20,11 +20,7 @@ Para inicializar os dados do cliente, siga as instruções na tela ao selecionar
 
 O menu de opções tarefas as seguintes topicos:
 
-<<<<<<< Updated upstream
 1. ~~Checar saldo~~
-=======
-1. ~Checar saldo~~
->>>>>>> Stashed changes
 2. Enviar valor
 3. Receber valor
 4. ~~Inicializar dados do cliente~~

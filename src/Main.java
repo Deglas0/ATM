@@ -16,7 +16,7 @@ public class Main {
                 """);
         String nome = scanner.nextLine();
         String tipoDeConta = scanner.nextLine();
-        int operacao = 0
+        int operacao = 0;
         String mensagem = """
                 /////////////////////////////////////////////////////////////////////////
                 Dados do Cliente: 

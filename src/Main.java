@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
-public class Main {
+Dpublic class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double emConta = 2000;
@@ -45,8 +43,17 @@ public class Main {
             if (operacao==4){
                 limite=1000;
             }
-        }while (limite !=1000 || limite <1000 );
+            if (operacao==1){
+                System.out.println("""
+                /////////////////////////////////////////////////////////////////////////
+                                
+                Saldo atual: %.2f
+                              
+                /////////////////////////////////////////////////////////////////////////
+                        """.formatted(emConta));
+            }
 
+        }while(limite !=1000 || limite <1000);
 
         }
 

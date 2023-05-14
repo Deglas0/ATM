@@ -42,13 +42,13 @@ public class Main {
                     Qual a operação desejada?
                     1- Checar saldo
                     2- TED
-                    3- ~~Receber~~
-                    4-sair
+                    3- Receber
+                    4- sair
                     """;
 
         System.out.println(inicio);
 
-    while (operacao != 4){
+    while (operacao < 99999){
         System.out.println(opcoes);
         operacao = scanner.nextInt();
 
@@ -74,7 +74,7 @@ public class Main {
             System.out.println("""
                     Qual valor irá enviar para o destinatário?
                     """);
-            double valorEnviado = scanner.nextInt();
+            double valorEnviado = scanner.nextDouble();
 
 
             System.out.println("Para confirmar digite SIM");
@@ -90,7 +90,7 @@ public class Main {
                                         
                         Terminal#                 %d
                                         
-                        Usuario:                  %s
+                        Remetente:                %s
                                         
                         Destinatario:             %s
                                         
@@ -109,7 +109,48 @@ public class Main {
         }
         }
         if (operacao==3){
+            System.out.println("""
+                    Digite o nome de quem é o remetente da transação:
+                    """);
+            scanner.nextLine();
+            String remetente = scanner.nextLine();
 
+            System.out.println("""
+                    Qual valor irá a ser recebido?
+                    """);
+            double valorEnviado = scanner.nextDouble();
+
+            System.out.println("Para confirmar digite SIM");
+            scanner.nextLine();
+            String seg = scanner.nextLine();
+
+            if (Objects.equals(seg, "SIM") || Objects.equals(seg, "sim") || Objects.equals(seg,"Sim")) {
+                total = valorEnviado + taxaDeServico;
+                String recibo = """
+                        /////////////////////////////////////////////////////////////////////////
+                                        ATM TRANSACTION
+                                        
+                        Terminal#                 %d
+                                        
+                        Remetente:                %s
+                                        
+                        Destinatario:             %s
+                                        
+                        Transação:                R$%.2f
+                                        
+                        Taxa de serviço:          R$%.2f
+                                        
+                        Total:                    R$%.2f
+                                        
+                        /////////////////////////////////////////////////////////////////////////
+                        """.formatted(terminal,remetente, nome, valorEnviado, taxaDeServico, total);
+                System.out.println(recibo);
+                emConta = emConta + total;
+            }else{
+                System.out.println("Transação cancelada");
+
+
+        }
         }
 
         if (operacao==4){
@@ -120,6 +161,7 @@ public class Main {
                     
                     /////////////////////////////////////////////////////////////////////////
                     """);
+            operacao =operacao+1000000;
         }
         else{
             System.out.println("Opção invalida, porvafor consultar as opções possiveis");

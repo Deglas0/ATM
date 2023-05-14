@@ -1,29 +1,30 @@
-# Operações disponíveis no ATM do Banco X
+# Projeto Banco
 
-## Checar saldo
+Este projeto foi desenvolvido como parte do meu aprendizado em programação e tem como objetivo simular as operações básicas de um caixa eletrônico.
 
-Para checar o saldo, selecione a opção correspondente no menu e siga as instruções na tela.
+## Funcionalidades
 
-## Enviar valor
+O projeto oferece as seguintes funcionalidades:
 
-Para enviar um valor para outra conta, selecione a opção correspondente no menu e siga as instruções na tela.
+- Checagem de saldo
+- Transferência via TED
+- Recebimento de transferência
+- Encerramento do programa
 
-## Receber valor
+## Tecnologias Utilizadas
 
-Para receber um valor de outra conta, selecione a opção correspondente no menu e siga as instruções na tela.
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-## Inicializar dados do cliente
+- Java
+- IDE Eclipse
 
-Para inicializar os dados do cliente, siga as instruções na tela ao selecionar a opção correspondente no menu.
+## Execução
 
-## Menu de tarefas a fazer
+Para executar o programa, basta executar a classe "Main" através da sua IDE ou digitando "java Main" no prompt de comando.
 
-O menu de opções tarefas as seguintes topicos:
+## Contribuição
 
-1. ~~Checar saldo~~
-2. ~~Enviar valor~~
-3. ~~Receber valor~~
-4. ~~Inicializar dados do cliente~~
-5. ~~Sair~~
+Contribuições são bem-vindas. Sinta-se livre para enviar um pull request ou abrir uma issue para discutir uma nova funcionalidade ou bug.
 
-# Projeto finalizado😎🤞
+
+# Termino do projeto no dia 14/05/23 😎🤞

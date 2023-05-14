@@ -21,7 +21,9 @@ Para inicializar os dados do cliente, siga as instruções na tela ao selecionar
 O menu de opções tarefas as seguintes topicos:
 
 1. ~~Checar saldo~~
-2. Enviar valor
-3. Receber valor
+2. ~~Enviar valor~~
+3. ~~Receber valor~~
 4. ~~Inicializar dados do cliente~~
-5. Sair
+5. ~~Sair~~
+
+# Projeto finalizado😎🤞
